@@ -25,7 +25,9 @@ h1, h2, h3 {
     --highlight-color: #416a8e; /* blue */
 }
 
-.container,
+/* grid visualisation CSS for testing */
+
+/*.container,
 .row {
     border: 2px solid black;
 }
@@ -33,4 +35,4 @@ h1, h2, h3 {
 .col-12 {
     border: 2px solid white;
     background-color: lightgray;
-}
+}*/
