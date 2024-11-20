@@ -104,11 +104,16 @@ h2 {
 
 /* events */
 
-.percent {
+.centered-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered-div p {
     background-color: var(--highlight-color);
     color: white;
     padding: 5px;
-    width: 300px;
 }
 
 /* Footer / contact */
