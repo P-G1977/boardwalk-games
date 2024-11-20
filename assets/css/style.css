@@ -113,8 +113,10 @@ h2 {
 .centered-div p {
     background-color: var(--highlight-color);
     color: white;
-    padding: 5px;
+    padding: 7px;
 }
+
+
 
 /* Footer / contact */
 
@@ -166,8 +168,16 @@ h2 {
     background-color: lightgray;
 }*/
 
-/* Medium devices (tablets, 768px and up) */ 
 
+
+@media screen and (max-width: 380px) {
+    /* Make table text smaller to fit smaller screens */
+    table {
+        font-size: 0.8em;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */ 
 
 @media screen and (min-width: 768px) {
     /* Make all service cards the same height for consistency */
